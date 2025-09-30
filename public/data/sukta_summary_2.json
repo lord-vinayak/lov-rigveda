@@ -1,0 +1,7 @@
+[
+  { "id": 1, "title": "Hymn 2.1", "verse_count": 5, "main_deity": "Agni", "unique_words": 38 },
+  { "id": 2, "title": "Hymn 2.2", "verse_count": 6, "main_deity": "Agni", "unique_words": 41 },
+  { "id": 3, "title": "Hymn 2.3", "verse_count": 5, "main_deity": "Agni", "unique_words": 37 },
+  { "id": 4, "title": "Hymn 2.4", "verse_count": 7, "main_deity": "Agni", "unique_words": 44 },
+  { "id": 5, "title": "Hymn 2.5", "verse_count": 8, "main_deity": "Agni", "unique_words": 46 }
+]

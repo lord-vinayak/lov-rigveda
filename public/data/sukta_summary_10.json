@@ -1,0 +1,9 @@
+[
+  { "id": 1, "title": "Hymn 10.1", "verse_count": 8, "main_deity": "Agni", "unique_words": 42 },
+  { "id": 2, "title": "Hymn 10.2", "verse_count": 10, "main_deity": "Agni", "unique_words": 48 },
+  { "id": 3, "title": "Hymn 10.3", "verse_count": 9, "main_deity": "Agni", "unique_words": 45 },
+  { "id": 4, "title": "Hymn 10.4", "verse_count": 11, "main_deity": "Agni", "unique_words": 50 },
+  { "id": 5, "title": "Hymn 10.5", "verse_count": 12, "main_deity": "Agni", "unique_words": 52 },
+  { "id": 90, "title": "Hymn 10.90 (Purusha Sukta)", "verse_count": 16, "main_deity": "Purusha", "unique_words": 68 },
+  { "id": 129, "title": "Hymn 10.129 (Nasadiya Sukta)", "verse_count": 7, "main_deity": "Creation", "unique_words": 55 }
+]

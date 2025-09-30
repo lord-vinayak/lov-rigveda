@@ -1,0 +1,17 @@
+[
+  { "id": 1, "title": "Hymn 1.1", "verse_count": 9, "main_deity": "Agni", "unique_words": 45 },
+  { "id": 2, "title": "Hymn 1.2", "verse_count": 9, "main_deity": "Indra", "unique_words": 48 },
+  { "id": 3, "title": "Hymn 1.3", "verse_count": 12, "main_deity": "Asvins", "unique_words": 52 },
+  { "id": 4, "title": "Hymn 1.4", "verse_count": 10, "main_deity": "Indra", "unique_words": 47 },
+  { "id": 5, "title": "Hymn 1.5", "verse_count": 11, "main_deity": "Indra", "unique_words": 50 },
+  { "id": 6, "title": "Hymn 1.6", "verse_count": 10, "main_deity": "Indra", "unique_words": 46 },
+  { "id": 7, "title": "Hymn 1.7", "verse_count": 10, "main_deity": "Indra", "unique_words": 49 },
+  { "id": 8, "title": "Hymn 1.8", "verse_count": 9, "main_deity": "Indra", "unique_words": 44 },
+  { "id": 9, "title": "Hymn 1.9", "verse_count": 10, "main_deity": "Indra", "unique_words": 48 },
+  { "id": 10, "title": "Hymn 1.10", "verse_count": 12, "main_deity": "Indra", "unique_words": 51 },
+  { "id": 11, "title": "Hymn 1.11", "verse_count": 9, "main_deity": "Indra", "unique_words": 45 },
+  { "id": 12, "title": "Hymn 1.12", "verse_count": 13, "main_deity": "Agni", "unique_words": 53 },
+  { "id": 13, "title": "Hymn 1.13", "verse_count": 12, "main_deity": "Agni", "unique_words": 52 },
+  { "id": 14, "title": "Hymn 1.14", "verse_count": 12, "main_deity": "Vayu", "unique_words": 50 },
+  { "id": 15, "title": "Hymn 1.15", "verse_count": 12, "main_deity": "Rta", "unique_words": 51 }
+]

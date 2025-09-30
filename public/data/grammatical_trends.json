@@ -1,0 +1,122 @@
+{
+  "1": {
+    "case:nominative": 500,
+    "case:accusative": 450,
+    "case:instrumental": 320,
+    "case:dative": 280,
+    "case:ablative": 240,
+    "case:genitive": 380,
+    "case:locative": 350,
+    "tense:present": 800,
+    "tense:aorist": 400,
+    "tense:perfect": 350
+  },
+  "2": {
+    "case:nominative": 180,
+    "case:accusative": 160,
+    "case:instrumental": 120,
+    "case:dative": 100,
+    "case:ablative": 90,
+    "case:genitive": 140,
+    "case:locative": 130,
+    "tense:present": 300,
+    "tense:aorist": 150,
+    "tense:perfect": 130
+  },
+  "3": {
+    "case:nominative": 220,
+    "case:accusative": 200,
+    "case:instrumental": 140,
+    "case:dative": 120,
+    "case:ablative": 110,
+    "case:genitive": 170,
+    "case:locative": 160,
+    "tense:present": 380,
+    "tense:aorist": 180,
+    "tense:perfect": 160
+  },
+  "4": {
+    "case:nominative": 210,
+    "case:accusative": 190,
+    "case:instrumental": 135,
+    "case:dative": 115,
+    "case:ablative": 105,
+    "case:genitive": 165,
+    "case:locative": 155,
+    "tense:present": 370,
+    "tense:aorist": 175,
+    "tense:perfect": 155
+  },
+  "5": {
+    "case:nominative": 260,
+    "case:accusative": 240,
+    "case:instrumental": 170,
+    "case:dative": 145,
+    "case:ablative": 130,
+    "case:genitive": 200,
+    "case:locative": 185,
+    "tense:present": 450,
+    "tense:aorist": 220,
+    "tense:perfect": 190
+  },
+  "6": {
+    "case:nominative": 270,
+    "case:accusative": 250,
+    "case:instrumental": 175,
+    "case:dative": 150,
+    "case:ablative": 135,
+    "case:genitive": 210,
+    "case:locative": 195,
+    "tense:present": 470,
+    "tense:aorist": 230,
+    "tense:perfect": 200
+  },
+  "7": {
+    "case:nominative": 300,
+    "case:accusative": 280,
+    "case:instrumental": 195,
+    "case:dative": 165,
+    "case:ablative": 150,
+    "case:genitive": 230,
+    "case:locative": 215,
+    "tense:present": 520,
+    "tense:aorist": 250,
+    "tense:perfect": 220
+  },
+  "8": {
+    "case:nominative": 480,
+    "case:accusative": 440,
+    "case:instrumental": 310,
+    "case:dative": 270,
+    "case:ablative": 235,
+    "case:genitive": 370,
+    "case:locative": 340,
+    "tense:present": 780,
+    "tense:aorist": 380,
+    "tense:perfect": 340
+  },
+  "9": {
+    "case:nominative": 390,
+    "case:accusative": 360,
+    "case:instrumental": 250,
+    "case:dative": 220,
+    "case:ablative": 190,
+    "case:genitive": 300,
+    "case:locative": 280,
+    "tense:present": 650,
+    "tense:aorist": 320,
+    "tense:perfect": 280
+  },
+  "10": {
+    "case:nominative": 520,
+    "case:accusative": 480,
+    "case:instrumental": 340,
+    "case:dative": 295,
+    "case:ablative": 260,
+    "case:genitive": 400,
+    "case:locative": 370,
+    "tense:present": 850,
+    "tense:aorist": 420,
+    "tense:perfect": 370
+  }
+}

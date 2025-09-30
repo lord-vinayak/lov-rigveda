@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "sanskrit_text": "agním īḷe puróhitaṃ yajñásya devám ṛtvíjam | hótāraṃ ratnadhā́tamam ||",
+    "translation": "I praise Agni, the household priest, the divine minister of the sacrifice, the invoker, the most bestowing of wealth.",
+    "meter": "Gāyatrī",
+    "grammar": [
+      { "word": "agním", "lemma": "agni", "case": "accusative", "number": "singular", "gender": "masculine" },
+      { "word": "īḷe", "lemma": "īḍ", "tense": "present", "person": "1st", "number": "singular" },
+      { "word": "puróhitam", "lemma": "purohita", "case": "accusative", "number": "singular", "gender": "masculine" }
+    ]
+  },
+  {
+    "id": 2,
+    "sanskrit_text": "agníḥ pū́rvebhir ṛ́ṣibhir ī́ḍyo nū́tanair utá | sá devā́m̐ éhá vakṣati ||",
+    "translation": "Agni, worthy of praise by former sages and by present ones, will bring the gods here.",
+    "meter": "Gāyatrī",
+    "grammar": [
+      { "word": "agníḥ", "lemma": "agni", "case": "nominative", "number": "singular", "gender": "masculine" },
+      { "word": "pū́rvebhiḥ", "lemma": "pūrva", "case": "instrumental", "number": "plural", "gender": "masculine" },
+      { "word": "ṛ́ṣibhiḥ", "lemma": "ṛṣi", "case": "instrumental", "number": "plural", "gender": "masculine" }
+    ]
+  },
+  {
+    "id": 3,
+    "sanskrit_text": "agninā́ rayím aśnavat póṣam evá divé-dive | yaśásaṃ vīrávattamam ||",
+    "translation": "Through Agni one may obtain wealth and prosperity day by day, which brings glory and heroic sons.",
+    "meter": "Gāyatrī",
+    "grammar": [
+      { "word": "agninā́", "lemma": "agni", "case": "instrumental", "number": "singular", "gender": "masculine" },
+      { "word": "rayím", "lemma": "rayi", "case": "accusative", "number": "singular", "gender": "masculine" },
+      { "word": "aśnavat", "lemma": "aś", "tense": "potential", "person": "3rd", "number": "singular" }
+    ]
+  }
+]

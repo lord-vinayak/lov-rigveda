@@ -4,7 +4,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
-import Index from "./pages/Index";
 import MandalaView from "./pages/MandalaView";
 import SuktaView from "./pages/SuktaView";
 import VerseView from "./pages/VerseView";
@@ -30,7 +29,7 @@ const App = () => (
           <Navigation />
           <main className="flex-1">
             <Routes>
-              <Route path="/" element={<Index />} />
+              <Route path="/" element={<MandalaView />} />
               <Route path="/mandala/:mandalaId" element={<SuktaView />} />
               <Route path="/sukta/:mandalaId/:suktaId" element={<VerseView />} />
               <Route path="/vocabulary" element={<VocabularyChart />} />

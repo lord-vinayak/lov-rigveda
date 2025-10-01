@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import {
   Home,
@@ -8,8 +9,17 @@ import {
   Map,
   TrendingUp,
   Sparkles,
+  Menu,
 } from "lucide-react";
 import MyIcon from "@/icons/book.jsx";
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetClose,
+} from "@/components/ui/sheet";
+import { cn } from "@/lib/utils";
 
 const navItems = [
   { path: "/", label: "Home", icon: Home },
@@ -21,8 +31,11 @@ const navItems = [
   { path: "/complexity", label: "Complexity", icon: TrendingUp },
 ];
 
+
+
 export const Navigation = () => {
   const location = useLocation();
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
     <nav className="bg-card border-b border-border sticky top-0 z-50 backdrop-blur-sm bg-card/95">
@@ -59,6 +72,41 @@ export const Navigation = () => {
                 </Link>
               );
             })}
+          </div>
+
+          {/* Mobile Navigation (visible on screens smaller than medium) */}
+          <div className="md:hidden">
+            <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6" />
+                  <span className="sr-only">Toggle Menu</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[240px]">
+                <div className="flex flex-col space-y-2 pt-6">
+                  {navItems.map((item) => {
+                    const Icon = item.icon;
+                    const isActive = location.pathname === item.path;
+                    return (
+                      <SheetClose asChild key={item.path}>
+                        <Link
+                          to={item.path}
+                          className={cn(
+                            "flex items-center gap-3 px-3 py-2 rounded-md text-base font-medium transition-colors",
+                            isActive
+                              ? "bg-primary text-primary-foreground"
+                              : "hover:bg-muted text-foreground"
+                          )}>
+                          <Icon className="w-5 h-5" />
+                          <span>{item.label}</span>
+                        </Link>
+                      </SheetClose>
+                    );
+                  })}
+                </div>
+              </SheetContent>
+            </Sheet>
           </div>
         </div>
       </div>

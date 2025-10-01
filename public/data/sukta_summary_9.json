@@ -1,0 +1,800 @@
+[
+  {
+    "id": 1,
+    "title": "Hymn 9.1",
+    "verse_count": 10,
+    "main_deity": "Soma",
+    "unique_words": 77
+  },
+  {
+    "id": 2,
+    "title": "Hymn 9.2",
+    "verse_count": 10,
+    "main_deity": "Soma",
+    "unique_words": 72
+  },
+  {
+    "id": 3,
+    "title": "Hymn 9.3",
+    "verse_count": 10,
+    "main_deity": "Soma",
+    "unique_words": 58
+  },
+  {
+    "id": 4,
+    "title": "Hymn 9.4",
+    "verse_count": 10,
+    "main_deity": "Soma",
+    "unique_words": 47
+  },
+  {
+    "id": 5,
+    "title": "Hymn 9.5",
+    "verse_count": 11,
+    "main_deity": "Apri Hymn",
+    "unique_words": 75
+  },
+  {
+    "id": 6,
+    "title": "Hymn 9.6",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 69
+  },
+  {
+    "id": 7,
+    "title": "Hymn 9.7",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 77
+  },
+  {
+    "id": 8,
+    "title": "Hymn 9.8",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 74
+  },
+  {
+    "id": 9,
+    "title": "Hymn 9.9",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 78
+  },
+  {
+    "id": 10,
+    "title": "Hymn 9.10",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 75
+  },
+  {
+    "id": 11,
+    "title": "Hymn 9.11",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 56
+  },
+  {
+    "id": 12,
+    "title": "Hymn 9.12",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 66
+  },
+  {
+    "id": 13,
+    "title": "Hymn 9.13",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 56
+  },
+  {
+    "id": 14,
+    "title": "Hymn 9.14",
+    "verse_count": 8,
+    "main_deity": "Soma",
+    "unique_words": 70
+  },
+  {
+    "id": 15,
+    "title": "Hymn 9.15",
+    "verse_count": 8,
+    "main_deity": "Soma",
+    "unique_words": 64
+  },
+  {
+    "id": 16,
+    "title": "Hymn 9.16",
+    "verse_count": 8,
+    "main_deity": "Soma",
+    "unique_words": 60
+  },
+  {
+    "id": 17,
+    "title": "Hymn 9.17",
+    "verse_count": 8,
+    "main_deity": "Soma",
+    "unique_words": 67
+  },
+  {
+    "id": 18,
+    "title": "Hymn 9.18",
+    "verse_count": 7,
+    "main_deity": "Soma",
+    "unique_words": 43
+  },
+  {
+    "id": 19,
+    "title": "Hymn 9.19",
+    "verse_count": 7,
+    "main_deity": "Soma",
+    "unique_words": 59
+  },
+  {
+    "id": 20,
+    "title": "Hymn 9.20",
+    "verse_count": 7,
+    "main_deity": "Soma",
+    "unique_words": 58
+  },
+  {
+    "id": 21,
+    "title": "Hymn 9.21",
+    "verse_count": 7,
+    "main_deity": "Soma",
+    "unique_words": 57
+  },
+  {
+    "id": 22,
+    "title": "Hymn 9.22",
+    "verse_count": 7,
+    "main_deity": "Soma",
+    "unique_words": 49
+  },
+  {
+    "id": 23,
+    "title": "Hymn 9.23",
+    "verse_count": 7,
+    "main_deity": "Soma",
+    "unique_words": 51
+  },
+  {
+    "id": 24,
+    "title": "Hymn 9.24",
+    "verse_count": 7,
+    "main_deity": "Soma",
+    "unique_words": 41
+  },
+  {
+    "id": 25,
+    "title": "Hymn 9.25",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 44
+  },
+  {
+    "id": 26,
+    "title": "Hymn 9.26",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 40
+  },
+  {
+    "id": 27,
+    "title": "Hymn 9.27",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 41
+  },
+  {
+    "id": 28,
+    "title": "Hymn 9.28",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 41
+  },
+  {
+    "id": 29,
+    "title": "Hymn 9.29",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 52
+  },
+  {
+    "id": 30,
+    "title": "Hymn 9.30",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 42
+  },
+  {
+    "id": 31,
+    "title": "Hymn 9.31",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 44
+  },
+  {
+    "id": 32,
+    "title": "Hymn 9.32",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 53
+  },
+  {
+    "id": 33,
+    "title": "Hymn 9.33",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 50
+  },
+  {
+    "id": 34,
+    "title": "Hymn 9.34",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 47
+  },
+  {
+    "id": 35,
+    "title": "Hymn 9.35",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 43
+  },
+  {
+    "id": 36,
+    "title": "Hymn 9.36",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 49
+  },
+  {
+    "id": 37,
+    "title": "Hymn 9.37",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 45
+  },
+  {
+    "id": 38,
+    "title": "Hymn 9.38",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 47
+  },
+  {
+    "id": 39,
+    "title": "Hymn 9.39",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 51
+  },
+  {
+    "id": 40,
+    "title": "Hymn 9.40",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 40
+  },
+  {
+    "id": 41,
+    "title": "Hymn 9.41",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 54
+  },
+  {
+    "id": 42,
+    "title": "Hymn 9.42",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 39
+  },
+  {
+    "id": 43,
+    "title": "Hymn 9.43",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 41
+  },
+  {
+    "id": 44,
+    "title": "Hymn 9.44",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 50
+  },
+  {
+    "id": 45,
+    "title": "Hymn 9.45",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 50
+  },
+  {
+    "id": 46,
+    "title": "Hymn 9.46",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 42
+  },
+  {
+    "id": 47,
+    "title": "Hymn 9.47",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 44
+  },
+  {
+    "id": 48,
+    "title": "Hymn 9.48",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 41
+  },
+  {
+    "id": 49,
+    "title": "Hymn 9.49",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 39
+  },
+  {
+    "id": 50,
+    "title": "Hymn 9.50",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 43
+  },
+  {
+    "id": 51,
+    "title": "Hymn 9.51",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 38
+  },
+  {
+    "id": 52,
+    "title": "Hymn 9.52",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 42
+  },
+  {
+    "id": 53,
+    "title": "Hymn 9.53",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 35
+  },
+  {
+    "id": 54,
+    "title": "Hymn 9.54",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 35
+  },
+  {
+    "id": 55,
+    "title": "Hymn 9.55",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 34
+  },
+  {
+    "id": 56,
+    "title": "Hymn 9.56",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 36
+  },
+  {
+    "id": 57,
+    "title": "Hymn 9.57",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 40
+  },
+  {
+    "id": 58,
+    "title": "Hymn 9.58",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 22
+  },
+  {
+    "id": 59,
+    "title": "Hymn 9.59",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 31
+  },
+  {
+    "id": 60,
+    "title": "Hymn 9.60",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 28
+  },
+  {
+    "id": 61,
+    "title": "Hymn 9.61",
+    "verse_count": 30,
+    "main_deity": "Soma",
+    "unique_words": 183
+  },
+  {
+    "id": 62,
+    "title": "Hymn 9.62",
+    "verse_count": 30,
+    "main_deity": "Soma",
+    "unique_words": 168
+  },
+  {
+    "id": 63,
+    "title": "Hymn 9.63",
+    "verse_count": 30,
+    "main_deity": "Soma",
+    "unique_words": 149
+  },
+  {
+    "id": 64,
+    "title": "Hymn 9.64",
+    "verse_count": 30,
+    "main_deity": "Soma",
+    "unique_words": 157
+  },
+  {
+    "id": 65,
+    "title": "Hymn 9.65",
+    "verse_count": 30,
+    "main_deity": "Soma",
+    "unique_words": 161
+  },
+  {
+    "id": 66,
+    "title": "Hymn 9.66",
+    "verse_count": 30,
+    "main_deity": "Soma",
+    "unique_words": 178
+  },
+  {
+    "id": 67,
+    "title": "Hymn 9.67",
+    "verse_count": 32,
+    "main_deity": "Soma and Other Gods",
+    "unique_words": 165
+  },
+  {
+    "id": 68,
+    "title": "Hymn 9.68",
+    "verse_count": 10,
+    "main_deity": "Soma",
+    "unique_words": 140
+  },
+  {
+    "id": 69,
+    "title": "Hymn 9.69",
+    "verse_count": 10,
+    "main_deity": "Soma",
+    "unique_words": 144
+  },
+  {
+    "id": 70,
+    "title": "Hymn 9.70",
+    "verse_count": 10,
+    "main_deity": "Soma",
+    "unique_words": 153
+  },
+  {
+    "id": 71,
+    "title": "Hymn 9.71",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 143
+  },
+  {
+    "id": 72,
+    "title": "Hymn 9.72",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 141
+  },
+  {
+    "id": 73,
+    "title": "Hymn 9.73",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 123
+  },
+  {
+    "id": 74,
+    "title": "Hymn 9.74",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 131
+  },
+  {
+    "id": 75,
+    "title": "Hymn 9.75",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 75
+  },
+  {
+    "id": 76,
+    "title": "Hymn 9.76",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 81
+  },
+  {
+    "id": 77,
+    "title": "Hymn 9.77",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 83
+  },
+  {
+    "id": 78,
+    "title": "Hymn 9.78",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 82
+  },
+  {
+    "id": 79,
+    "title": "Hymn 9.79",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 78
+  },
+  {
+    "id": 80,
+    "title": "Hymn 9.80",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 72
+  },
+  {
+    "id": 81,
+    "title": "Hymn 9.81",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 80
+  },
+  {
+    "id": 82,
+    "title": "Hymn 9.82",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 84
+  },
+  {
+    "id": 83,
+    "title": "Hymn 9.83",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 80
+  },
+  {
+    "id": 84,
+    "title": "Hymn 9.84",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 71
+  },
+  {
+    "id": 85,
+    "title": "Hymn 9.85",
+    "verse_count": 12,
+    "main_deity": "Soma",
+    "unique_words": 155
+  },
+  {
+    "id": 86,
+    "title": "Hymn 9.86",
+    "verse_count": 48,
+    "main_deity": "Soma",
+    "unique_words": 381
+  },
+  {
+    "id": 87,
+    "title": "Hymn 9.87",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 119
+  },
+  {
+    "id": 88,
+    "title": "Hymn 9.88",
+    "verse_count": 8,
+    "main_deity": "Soma",
+    "unique_words": 104
+  },
+  {
+    "id": 89,
+    "title": "Hymn 9.89",
+    "verse_count": 7,
+    "main_deity": "Soma",
+    "unique_words": 102
+  },
+  {
+    "id": 90,
+    "title": "Hymn 9.90",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 83
+  },
+  {
+    "id": 91,
+    "title": "Hymn 9.91",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 94
+  },
+  {
+    "id": 92,
+    "title": "Hymn 9.92",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 93
+  },
+  {
+    "id": 93,
+    "title": "Hymn 9.93",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 74
+  },
+  {
+    "id": 94,
+    "title": "Hymn 9.94",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 76
+  },
+  {
+    "id": 95,
+    "title": "Hymn 9.95",
+    "verse_count": 5,
+    "main_deity": "Soma",
+    "unique_words": 74
+  },
+  {
+    "id": 96,
+    "title": "Hymn 9.96",
+    "verse_count": 24,
+    "main_deity": "Soma",
+    "unique_words": 251
+  },
+  {
+    "id": 97,
+    "title": "Hymn 9.97",
+    "verse_count": 58,
+    "main_deity": "Soma",
+    "unique_words": 474
+  },
+  {
+    "id": 98,
+    "title": "Hymn 9.98",
+    "verse_count": 12,
+    "main_deity": "Soma",
+    "unique_words": 105
+  },
+  {
+    "id": 99,
+    "title": "Hymn 9.99",
+    "verse_count": 8,
+    "main_deity": "Soma",
+    "unique_words": 83
+  },
+  {
+    "id": 100,
+    "title": "Hymn 9.100",
+    "verse_count": 9,
+    "main_deity": "Soma",
+    "unique_words": 78
+  },
+  {
+    "id": 101,
+    "title": "Hymn 9.101",
+    "verse_count": 16,
+    "main_deity": "Soma",
+    "unique_words": 128
+  },
+  {
+    "id": 102,
+    "title": "Hymn 9.102",
+    "verse_count": 8,
+    "main_deity": "Soma",
+    "unique_words": 71
+  },
+  {
+    "id": 103,
+    "title": "Hymn 9.103",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 48
+  },
+  {
+    "id": 104,
+    "title": "Hymn 9.104",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 57
+  },
+  {
+    "id": 105,
+    "title": "Hymn 9.105",
+    "verse_count": 6,
+    "main_deity": "Soma",
+    "unique_words": 57
+  },
+  {
+    "id": 106,
+    "title": "Hymn 9.106",
+    "verse_count": 14,
+    "main_deity": "Soma",
+    "unique_words": 100
+  },
+  {
+    "id": 107,
+    "title": "Hymn 9.107",
+    "verse_count": 26,
+    "main_deity": "Soma",
+    "unique_words": 207
+  },
+  {
+    "id": 108,
+    "title": "Hymn 9.108",
+    "verse_count": 16,
+    "main_deity": "Soma",
+    "unique_words": 152
+  },
+  {
+    "id": 109,
+    "title": "Hymn 9.109",
+    "verse_count": 22,
+    "main_deity": "Soma",
+    "unique_words": 102
+  },
+  {
+    "id": 110,
+    "title": "Hymn 9.110",
+    "verse_count": 12,
+    "main_deity": "Soma",
+    "unique_words": 121
+  },
+  {
+    "id": 111,
+    "title": "Hymn 9.111",
+    "verse_count": 3,
+    "main_deity": "Soma",
+    "unique_words": 62
+  },
+  {
+    "id": 112,
+    "title": "Hymn 9.112",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 49
+  },
+  {
+    "id": 113,
+    "title": "Hymn 9.113",
+    "verse_count": 11,
+    "main_deity": "Soma",
+    "unique_words": 89
+  },
+  {
+    "id": 114,
+    "title": "Hymn 9.114",
+    "verse_count": 4,
+    "main_deity": "Soma",
+    "unique_words": 48
+  }
+]

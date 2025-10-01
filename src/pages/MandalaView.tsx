@@ -5,10 +5,10 @@ import { MandalaCard } from "@/components/MandalaCard";
 import { PageHeader } from "@/components/PageHeader";
 
 interface Mandala {
-  id: number;
+  mandala: number;
   title: string;
-  verse_count: number;
-  hymn_count: number;
+  total_verses: number;
+  total_hymns: number;
   vocab_size: number;
   dominant_deities: string[];
 }
@@ -18,7 +18,7 @@ const MandalaView = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/data/mandala_summary.json")
+    fetch("/data/mandala_stats.json")
       .then((res) => res.json())
       .then((data) => setMandalas(data))
       .catch((err) => console.error("Error loading mandalas:", err));
@@ -54,10 +54,10 @@ const MandalaView = () => {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
         >
           {mandalas.map((mandala) => (
-            <motion.div key={mandala.id} variants={itemVariants}>
+            <motion.div key={mandala.mandala} variants={itemVariants}>
               <MandalaCard
                 mandala={mandala}
-                onClick={() => navigate(`/mandala/${mandala.id}`)}
+                onClick={() => navigate(`/mandala/${mandala.mandala}`)}
               />
             </motion.div>
           ))}

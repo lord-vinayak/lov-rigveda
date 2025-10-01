@@ -1,7 +1,303 @@
 [
-  { "id": 1, "title": "Hymn 2.1", "verse_count": 5, "main_deity": "Agni", "unique_words": 38 },
-  { "id": 2, "title": "Hymn 2.2", "verse_count": 6, "main_deity": "Agni", "unique_words": 41 },
-  { "id": 3, "title": "Hymn 2.3", "verse_count": 5, "main_deity": "Agni", "unique_words": 37 },
-  { "id": 4, "title": "Hymn 2.4", "verse_count": 7, "main_deity": "Agni", "unique_words": 44 },
-  { "id": 5, "title": "Hymn 2.5", "verse_count": 8, "main_deity": "Agni", "unique_words": 46 }
+  {
+    "id": 1,
+    "title": "Hymn 2.1",
+    "verse_count": 16,
+    "main_deity": "Agni",
+    "unique_words": 184
+  },
+  {
+    "id": 2,
+    "title": "Hymn 2.2",
+    "verse_count": 13,
+    "main_deity": "Agni",
+    "unique_words": 166
+  },
+  {
+    "id": 3,
+    "title": "Hymn 2.3",
+    "verse_count": 11,
+    "main_deity": "Apri Hymn",
+    "unique_words": 136
+  },
+  {
+    "id": 4,
+    "title": "Hymn 2.4",
+    "verse_count": 9,
+    "main_deity": "Agni",
+    "unique_words": 121
+  },
+  {
+    "id": 5,
+    "title": "Hymn 2.5",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 87
+  },
+  {
+    "id": 6,
+    "title": "Hymn 2.6",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 62
+  },
+  {
+    "id": 7,
+    "title": "Hymn 2.7",
+    "verse_count": 6,
+    "main_deity": "Agni",
+    "unique_words": 48
+  },
+  {
+    "id": 8,
+    "title": "Hymn 2.8",
+    "verse_count": 6,
+    "main_deity": "Agni",
+    "unique_words": 53
+  },
+  {
+    "id": 9,
+    "title": "Hymn 2.9",
+    "verse_count": 6,
+    "main_deity": "Agni",
+    "unique_words": 79
+  },
+  {
+    "id": 10,
+    "title": "Hymn 2.10",
+    "verse_count": 6,
+    "main_deity": "Agni",
+    "unique_words": 85
+  },
+  {
+    "id": 11,
+    "title": "Hymn 2.11",
+    "verse_count": 21,
+    "main_deity": "Indra",
+    "unique_words": 207
+  },
+  {
+    "id": 12,
+    "title": "Hymn 2.12",
+    "verse_count": 15,
+    "main_deity": "Indra",
+    "unique_words": 162
+  },
+  {
+    "id": 13,
+    "title": "Hymn 2.13",
+    "verse_count": 13,
+    "main_deity": "Indra",
+    "unique_words": 166
+  },
+  {
+    "id": 14,
+    "title": "Hymn 2.14",
+    "verse_count": 12,
+    "main_deity": "Indra",
+    "unique_words": 130
+  },
+  {
+    "id": 15,
+    "title": "Hymn 2.15",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 127
+  },
+  {
+    "id": 16,
+    "title": "Hymn 2.16",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 121
+  },
+  {
+    "id": 17,
+    "title": "Hymn 2.17",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 127
+  },
+  {
+    "id": 18,
+    "title": "Hymn 2.18",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 115
+  },
+  {
+    "id": 19,
+    "title": "Hymn 2.19",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 122
+  },
+  {
+    "id": 20,
+    "title": "Hymn 2.20",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 129
+  },
+  {
+    "id": 21,
+    "title": "Hymn 2.21",
+    "verse_count": 6,
+    "main_deity": "Indra",
+    "unique_words": 84
+  },
+  {
+    "id": 22,
+    "title": "Hymn 2.22",
+    "verse_count": 4,
+    "main_deity": "Indra",
+    "unique_words": 75
+  },
+  {
+    "id": 23,
+    "title": "Hymn 2.23",
+    "verse_count": 19,
+    "main_deity": "Brahmanaspati",
+    "unique_words": 227
+  },
+  {
+    "id": 24,
+    "title": "Hymn 2.24",
+    "verse_count": 16,
+    "main_deity": "Brahmanaspati",
+    "unique_words": 210
+  },
+  {
+    "id": 25,
+    "title": "Hymn 2.25",
+    "verse_count": 5,
+    "main_deity": "Brahmanaspati",
+    "unique_words": 60
+  },
+  {
+    "id": 26,
+    "title": "Hymn 2.26",
+    "verse_count": 4,
+    "main_deity": "Brahmanaspati",
+    "unique_words": 62
+  },
+  {
+    "id": 27,
+    "title": "Hymn 2.27",
+    "verse_count": 17,
+    "main_deity": "Adityas",
+    "unique_words": 187
+  },
+  {
+    "id": 28,
+    "title": "Hymn 2.28",
+    "verse_count": 11,
+    "main_deity": "Varuna",
+    "unique_words": 151
+  },
+  {
+    "id": 29,
+    "title": "Hymn 2.29",
+    "verse_count": 7,
+    "main_deity": "All the Gods",
+    "unique_words": 94
+  },
+  {
+    "id": 30,
+    "title": "Hymn 2.30",
+    "verse_count": 11,
+    "main_deity": "Indra and Other Gods",
+    "unique_words": 138
+  },
+  {
+    "id": 31,
+    "title": "Hymn 2.31",
+    "verse_count": 7,
+    "main_deity": "All the Gods",
+    "unique_words": 109
+  },
+  {
+    "id": 32,
+    "title": "Hymn 2.32",
+    "verse_count": 8,
+    "main_deity": "Diverse Gods",
+    "unique_words": 96
+  },
+  {
+    "id": 33,
+    "title": "Hymn 2.33",
+    "verse_count": 15,
+    "main_deity": "Rudra",
+    "unique_words": 172
+  },
+  {
+    "id": 34,
+    "title": "Hymn 2.34",
+    "verse_count": 15,
+    "main_deity": "The Maruts",
+    "unique_words": 192
+  },
+  {
+    "id": 35,
+    "title": "Hymn 2.35",
+    "verse_count": 15,
+    "main_deity": "Apam Napat",
+    "unique_words": 170
+  },
+  {
+    "id": 36,
+    "title": "Hymn 2.36",
+    "verse_count": 6,
+    "main_deity": "Cycle of the Gods",
+    "unique_words": 95
+  },
+  {
+    "id": 37,
+    "title": "Hymn 2.37",
+    "verse_count": 6,
+    "main_deity": "Cycle of the Gods",
+    "unique_words": 79
+  },
+  {
+    "id": 38,
+    "title": "Hymn 2.38",
+    "verse_count": 11,
+    "main_deity": "Savitri",
+    "unique_words": 136
+  },
+  {
+    "id": 39,
+    "title": "Hymn 2.39",
+    "verse_count": 8,
+    "main_deity": "Asvins",
+    "unique_words": 105
+  },
+  {
+    "id": 40,
+    "title": "Hymn 2.40",
+    "verse_count": 6,
+    "main_deity": "Soma and  Pusan",
+    "unique_words": 65
+  },
+  {
+    "id": 41,
+    "title": "Hymn 2.41",
+    "verse_count": 21,
+    "main_deity": "Diverse Gods",
+    "unique_words": 142
+  },
+  {
+    "id": 42,
+    "title": "Hymn 2.42",
+    "verse_count": 3,
+    "main_deity": "Bird of Omen",
+    "unique_words": 43
+  },
+  {
+    "id": 43,
+    "title": "Hymn 2.43",
+    "verse_count": 3,
+    "main_deity": "Bird of Omen",
+    "unique_words": 46
+  }
 ]

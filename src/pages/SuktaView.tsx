@@ -38,7 +38,7 @@ const SuktaView = () => {
       <div className="container mx-auto px-4 py-8">
         <PageHeader
           title={`Mandala ${mandalaId} - Hymns`}
-          subtitle="Explore the individual hymns (Suktas) of this Mandala"
+          subtitle={`Explore the individual hymns (Suktas) of this Mandala`}
           showBack
         />
 

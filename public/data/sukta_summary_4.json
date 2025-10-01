@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1,
+    "title": "Hymn 4.1",
+    "verse_count": 20,
+    "main_deity": "Agni",
+    "unique_words": 230
+  },
+  {
+    "id": 2,
+    "title": "Hymn 4.2",
+    "verse_count": 20,
+    "main_deity": "Agni",
+    "unique_words": 236
+  },
+  {
+    "id": 3,
+    "title": "Hymn 4.3",
+    "verse_count": 16,
+    "main_deity": "Agni",
+    "unique_words": 199
+  },
+  {
+    "id": 4,
+    "title": "Hymn 4.4",
+    "verse_count": 15,
+    "main_deity": "Agni Killer of Demons",
+    "unique_words": 186
+  },
+  {
+    "id": 5,
+    "title": "Hymn 4.5",
+    "verse_count": 15,
+    "main_deity": "Agni Vaisvanara",
+    "unique_words": 185
+  },
+  {
+    "id": 6,
+    "title": "Hymn 4.6",
+    "verse_count": 11,
+    "main_deity": "Agni",
+    "unique_words": 143
+  },
+  {
+    "id": 7,
+    "title": "Hymn 4.7",
+    "verse_count": 11,
+    "main_deity": "Agni",
+    "unique_words": 126
+  },
+  {
+    "id": 8,
+    "title": "Hymn 4.8",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 62
+  },
+  {
+    "id": 9,
+    "title": "Hymn 4.9",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 59
+  },
+  {
+    "id": 10,
+    "title": "Hymn 4.10",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 70
+  },
+  {
+    "id": 11,
+    "title": "Hymn 4.11",
+    "verse_count": 6,
+    "main_deity": "Agni",
+    "unique_words": 77
+  },
+  {
+    "id": 12,
+    "title": "Hymn 4.12",
+    "verse_count": 6,
+    "main_deity": "Agni",
+    "unique_words": 88
+  },
+  {
+    "id": 13,
+    "title": "Hymn 4.13",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 75
+  },
+  {
+    "id": 14,
+    "title": "Hymn 4.14",
+    "verse_count": 5,
+    "main_deity": "Indra",
+    "unique_words": 70
+  },
+  {
+    "id": 15,
+    "title": "Hymn 4.15",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 66
+  },
+  {
+    "id": 16,
+    "title": "Hymn 4.16",
+    "verse_count": 21,
+    "main_deity": "Indra",
+    "unique_words": 262
+  },
+  {
+    "id": 17,
+    "title": "Hymn 4.17",
+    "verse_count": 21,
+    "main_deity": "Indra",
+    "unique_words": 224
+  },
+  {
+    "id": 18,
+    "title": "Hymn 4.18",
+    "verse_count": 13,
+    "main_deity": "Dialogue Between Indra, Aditi and Vamadeva",
+    "unique_words": 157
+  },
+  {
+    "id": 19,
+    "title": "Hymn 4.19",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 149
+  },
+  {
+    "id": 20,
+    "title": "Hymn 4.20",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 142
+  },
+  {
+    "id": 21,
+    "title": "Hymn 4.21",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 142
+  },
+  {
+    "id": 22,
+    "title": "Hymn 4.22",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 145
+  },
+  {
+    "id": 23,
+    "title": "Hymn 4.23",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 138
+  },
+  {
+    "id": 24,
+    "title": "Hymn 4.24",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 142
+  },
+  {
+    "id": 25,
+    "title": "Hymn 4.25",
+    "verse_count": 8,
+    "main_deity": "Indra",
+    "unique_words": 99
+  },
+  {
+    "id": 26,
+    "title": "Hymn 4.26",
+    "verse_count": 7,
+    "main_deity": "Indra",
+    "unique_words": 93
+  },
+  {
+    "id": 27,
+    "title": "Hymn 4.27",
+    "verse_count": 5,
+    "main_deity": "Soma and the Eagle",
+    "unique_words": 85
+  },
+  {
+    "id": 28,
+    "title": "Hymn 4.28",
+    "verse_count": 5,
+    "main_deity": "Indra and Soma",
+    "unique_words": 75
+  },
+  {
+    "id": 29,
+    "title": "Hymn 4.29",
+    "verse_count": 5,
+    "main_deity": "Indra",
+    "unique_words": 74
+  },
+  {
+    "id": 30,
+    "title": "Hymn 4.30",
+    "verse_count": 24,
+    "main_deity": "Indra",
+    "unique_words": 154
+  },
+  {
+    "id": 31,
+    "title": "Hymn 4.31",
+    "verse_count": 15,
+    "main_deity": "Indra",
+    "unique_words": 100
+  },
+  {
+    "id": 32,
+    "title": "Hymn 4.32",
+    "verse_count": 24,
+    "main_deity": "Indra",
+    "unique_words": 137
+  },
+  {
+    "id": 33,
+    "title": "Hymn 4.33",
+    "verse_count": 11,
+    "main_deity": "The Ribhus",
+    "unique_words": 144
+  },
+  {
+    "id": 34,
+    "title": "Hymn 4.34",
+    "verse_count": 11,
+    "main_deity": "The Ribhus",
+    "unique_words": 108
+  },
+  {
+    "id": 35,
+    "title": "Hymn 4.35",
+    "verse_count": 9,
+    "main_deity": "The Ribhus",
+    "unique_words": 88
+  },
+  {
+    "id": 36,
+    "title": "Hymn 4.36",
+    "verse_count": 9,
+    "main_deity": "The Ribhus",
+    "unique_words": 112
+  },
+  {
+    "id": 37,
+    "title": "Hymn 4.37",
+    "verse_count": 8,
+    "main_deity": "The Ribhus",
+    "unique_words": 94
+  },
+  {
+    "id": 38,
+    "title": "Hymn 4.38",
+    "verse_count": 10,
+    "main_deity": "Dadhikra",
+    "unique_words": 137
+  },
+  {
+    "id": 39,
+    "title": "Hymn 4.39",
+    "verse_count": 6,
+    "main_deity": "Dadhikra",
+    "unique_words": 67
+  },
+  {
+    "id": 40,
+    "title": "Hymn 4.40",
+    "verse_count": 5,
+    "main_deity": "Dadhikra",
+    "unique_words": 77
+  },
+  {
+    "id": 41,
+    "title": "Hymn 4.41",
+    "verse_count": 11,
+    "main_deity": "Indra and Varuna",
+    "unique_words": 135
+  },
+  {
+    "id": 42,
+    "title": "Hymn 4.42",
+    "verse_count": 10,
+    "main_deity": "Indra and Varuna",
+    "unique_words": 113
+  },
+  {
+    "id": 43,
+    "title": "Hymn 4.43",
+    "verse_count": 7,
+    "main_deity": "Asvins",
+    "unique_words": 93
+  },
+  {
+    "id": 44,
+    "title": "Hymn 4.44",
+    "verse_count": 7,
+    "main_deity": "Asvins",
+    "unique_words": 91
+  },
+  {
+    "id": 45,
+    "title": "Hymn 4.45",
+    "verse_count": 7,
+    "main_deity": "Asvins",
+    "unique_words": 89
+  },
+  {
+    "id": 46,
+    "title": "Hymn 4.46",
+    "verse_count": 7,
+    "main_deity": "Vayu or Indra and Vayu",
+    "unique_words": 41
+  },
+  {
+    "id": 47,
+    "title": "Hymn 4.47",
+    "verse_count": 4,
+    "main_deity": "Vayu or Indra and Vayu",
+    "unique_words": 42
+  },
+  {
+    "id": 48,
+    "title": "Hymn 4.48",
+    "verse_count": 5,
+    "main_deity": "Vayu",
+    "unique_words": 36
+  },
+  {
+    "id": 49,
+    "title": "Hymn 4.49",
+    "verse_count": 6,
+    "main_deity": "Indra and Brihaspati",
+    "unique_words": 34
+  },
+  {
+    "id": 50,
+    "title": "Hymn 4.50",
+    "verse_count": 11,
+    "main_deity": "Brihaspati",
+    "unique_words": 138
+  },
+  {
+    "id": 51,
+    "title": "Hymn 4.51",
+    "verse_count": 11,
+    "main_deity": "Usas",
+    "unique_words": 127
+  },
+  {
+    "id": 52,
+    "title": "Hymn 4.52",
+    "verse_count": 7,
+    "main_deity": "Usas",
+    "unique_words": 52
+  },
+  {
+    "id": 53,
+    "title": "Hymn 4.53",
+    "verse_count": 7,
+    "main_deity": "Savitri",
+    "unique_words": 89
+  },
+  {
+    "id": 54,
+    "title": "Hymn 4.54",
+    "verse_count": 6,
+    "main_deity": "Savitri",
+    "unique_words": 78
+  },
+  {
+    "id": 55,
+    "title": "Hymn 4.55",
+    "verse_count": 10,
+    "main_deity": "All the Gods",
+    "unique_words": 111
+  },
+  {
+    "id": 56,
+    "title": "Hymn 4.56",
+    "verse_count": 7,
+    "main_deity": "Heaven and Earth",
+    "unique_words": 84
+  },
+  {
+    "id": 57,
+    "title": "Hymn 4.57",
+    "verse_count": 8,
+    "main_deity": "Gods of the Field (Charm for Unfruitful Land)",
+    "unique_words": 74
+  },
+  {
+    "id": 58,
+    "title": "Hymn 4.58",
+    "verse_count": 11,
+    "main_deity": "Ghrita (Ghee)",
+    "unique_words": 138
+  }
+]

@@ -1,17 +1,1339 @@
 [
-  { "id": 1, "title": "Hymn 1.1", "verse_count": 9, "main_deity": "Agni", "unique_words": 45 },
-  { "id": 2, "title": "Hymn 1.2", "verse_count": 9, "main_deity": "Indra", "unique_words": 48 },
-  { "id": 3, "title": "Hymn 1.3", "verse_count": 12, "main_deity": "Asvins", "unique_words": 52 },
-  { "id": 4, "title": "Hymn 1.4", "verse_count": 10, "main_deity": "Indra", "unique_words": 47 },
-  { "id": 5, "title": "Hymn 1.5", "verse_count": 11, "main_deity": "Indra", "unique_words": 50 },
-  { "id": 6, "title": "Hymn 1.6", "verse_count": 10, "main_deity": "Indra", "unique_words": 46 },
-  { "id": 7, "title": "Hymn 1.7", "verse_count": 10, "main_deity": "Indra", "unique_words": 49 },
-  { "id": 8, "title": "Hymn 1.8", "verse_count": 9, "main_deity": "Indra", "unique_words": 44 },
-  { "id": 9, "title": "Hymn 1.9", "verse_count": 10, "main_deity": "Indra", "unique_words": 48 },
-  { "id": 10, "title": "Hymn 1.10", "verse_count": 12, "main_deity": "Indra", "unique_words": 51 },
-  { "id": 11, "title": "Hymn 1.11", "verse_count": 9, "main_deity": "Indra", "unique_words": 45 },
-  { "id": 12, "title": "Hymn 1.12", "verse_count": 13, "main_deity": "Agni", "unique_words": 53 },
-  { "id": 13, "title": "Hymn 1.13", "verse_count": 12, "main_deity": "Agni", "unique_words": 52 },
-  { "id": 14, "title": "Hymn 1.14", "verse_count": 12, "main_deity": "Vayu", "unique_words": 50 },
-  { "id": 15, "title": "Hymn 1.15", "verse_count": 12, "main_deity": "Rta", "unique_words": 51 }
+  {
+    "id": 1,
+    "title": "Hymn 1.1",
+    "verse_count": 9,
+    "main_deity": "Agni",
+    "unique_words": 61
+  },
+  {
+    "id": 2,
+    "title": "Hymn 1.2",
+    "verse_count": 9,
+    "main_deity": "Vayu, Indra and Vayu, Mitra and Varuna",
+    "unique_words": 63
+  },
+  {
+    "id": 3,
+    "title": "Hymn 1.3",
+    "verse_count": 12,
+    "main_deity": "Asvins, Indra, All the Gods and Sarasvati",
+    "unique_words": 75
+  },
+  {
+    "id": 4,
+    "title": "Hymn 1.4",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 79
+  },
+  {
+    "id": 5,
+    "title": "Hymn 1.5",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 67
+  },
+  {
+    "id": 6,
+    "title": "Hymn 1.6",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 76
+  },
+  {
+    "id": 7,
+    "title": "Hymn 1.7",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 71
+  },
+  {
+    "id": 8,
+    "title": "Hymn 1.8",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 76
+  },
+  {
+    "id": 9,
+    "title": "Hymn 1.9",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 72
+  },
+  {
+    "id": 10,
+    "title": "Hymn 1.10",
+    "verse_count": 12,
+    "main_deity": "Indra",
+    "unique_words": 123
+  },
+  {
+    "id": 11,
+    "title": "Hymn 1.11",
+    "verse_count": 8,
+    "main_deity": "Indra",
+    "unique_words": 80
+  },
+  {
+    "id": 12,
+    "title": "Hymn 1.12",
+    "verse_count": 12,
+    "main_deity": "Agni",
+    "unique_words": 74
+  },
+  {
+    "id": 13,
+    "title": "Hymn 1.13",
+    "verse_count": 12,
+    "main_deity": "Apri Hymn",
+    "unique_words": 74
+  },
+  {
+    "id": 14,
+    "title": "Hymn 1.14",
+    "verse_count": 12,
+    "main_deity": "All the Gods",
+    "unique_words": 75
+  },
+  {
+    "id": 15,
+    "title": "Hymn 1.15",
+    "verse_count": 12,
+    "main_deity": "Cycle of the Gods",
+    "unique_words": 76
+  },
+  {
+    "id": 16,
+    "title": "Hymn 1.16",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 53
+  },
+  {
+    "id": 17,
+    "title": "Hymn 1.17",
+    "verse_count": 9,
+    "main_deity": "Indra and Varuna",
+    "unique_words": 57
+  },
+  {
+    "id": 18,
+    "title": "Hymn 1.18",
+    "verse_count": 9,
+    "main_deity": "Brahmanaspati and Sadasaspati",
+    "unique_words": 64
+  },
+  {
+    "id": 19,
+    "title": "Hymn 1.19",
+    "verse_count": 9,
+    "main_deity": "Agni and the Maruts",
+    "unique_words": 50
+  },
+  {
+    "id": 20,
+    "title": "Hymn 1.20",
+    "verse_count": 8,
+    "main_deity": "The Ribhus",
+    "unique_words": 60
+  },
+  {
+    "id": 21,
+    "title": "Hymn 1.21",
+    "verse_count": 6,
+    "main_deity": "Indra and Agni",
+    "unique_words": 41
+  },
+  {
+    "id": 22,
+    "title": "Hymn 1.22",
+    "verse_count": 21,
+    "main_deity": "Diverse Gods",
+    "unique_words": 127
+  },
+  {
+    "id": 23,
+    "title": "Hymn 1.23",
+    "verse_count": 24,
+    "main_deity": "Diverse Gods",
+    "unique_words": 152
+  },
+  {
+    "id": 24,
+    "title": "Hymn 1.24",
+    "verse_count": 15,
+    "main_deity": "Agni, Savitri and Varuna",
+    "unique_words": 155
+  },
+  {
+    "id": 25,
+    "title": "Hymn 1.25",
+    "verse_count": 21,
+    "main_deity": "Varuna",
+    "unique_words": 143
+  },
+  {
+    "id": 26,
+    "title": "Hymn 1.26",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 69
+  },
+  {
+    "id": 27,
+    "title": "Hymn 1.27",
+    "verse_count": 13,
+    "main_deity": "Agni",
+    "unique_words": 102
+  },
+  {
+    "id": 28,
+    "title": "Hymn 1.28",
+    "verse_count": 9,
+    "main_deity": "The Simplified Pressing of Soma",
+    "unique_words": 73
+  },
+  {
+    "id": 29,
+    "title": "Hymn 1.29",
+    "verse_count": 7,
+    "main_deity": "Indra",
+    "unique_words": 51
+  },
+  {
+    "id": 30,
+    "title": "Hymn 1.30",
+    "verse_count": 22,
+    "main_deity": "Indra, Final Verses Asvins and Usas",
+    "unique_words": 149
+  },
+  {
+    "id": 31,
+    "title": "Hymn 1.31",
+    "verse_count": 18,
+    "main_deity": "Agni",
+    "unique_words": 209
+  },
+  {
+    "id": 32,
+    "title": "Hymn 1.32",
+    "verse_count": 15,
+    "main_deity": "Indra",
+    "unique_words": 178
+  },
+  {
+    "id": 33,
+    "title": "Hymn 1.33",
+    "verse_count": 15,
+    "main_deity": "Indra",
+    "unique_words": 184
+  },
+  {
+    "id": 34,
+    "title": "Hymn 1.34",
+    "verse_count": 12,
+    "main_deity": "Asvins",
+    "unique_words": 145
+  },
+  {
+    "id": 35,
+    "title": "Hymn 1.35",
+    "verse_count": 11,
+    "main_deity": "Savitri",
+    "unique_words": 124
+  },
+  {
+    "id": 36,
+    "title": "Hymn 1.36",
+    "verse_count": 20,
+    "main_deity": "Agni",
+    "unique_words": 187
+  },
+  {
+    "id": 37,
+    "title": "Hymn 1.37",
+    "verse_count": 15,
+    "main_deity": "The Maruts",
+    "unique_words": 114
+  },
+  {
+    "id": 38,
+    "title": "Hymn 1.38",
+    "verse_count": 15,
+    "main_deity": "The Maruts",
+    "unique_words": 119
+  },
+  {
+    "id": 39,
+    "title": "Hymn 1.39",
+    "verse_count": 10,
+    "main_deity": "The Maruts",
+    "unique_words": 108
+  },
+  {
+    "id": 40,
+    "title": "Hymn 1.40",
+    "verse_count": 8,
+    "main_deity": "Brahmanaspati",
+    "unique_words": 92
+  },
+  {
+    "id": 41,
+    "title": "Hymn 1.41",
+    "verse_count": 9,
+    "main_deity": "Adityas",
+    "unique_words": 77
+  },
+  {
+    "id": 42,
+    "title": "Hymn 1.42",
+    "verse_count": 10,
+    "main_deity": "Pusan",
+    "unique_words": 77
+  },
+  {
+    "id": 43,
+    "title": "Hymn 1.43",
+    "verse_count": 9,
+    "main_deity": "Rudra and Soma",
+    "unique_words": 72
+  },
+  {
+    "id": 44,
+    "title": "Hymn 1.44",
+    "verse_count": 14,
+    "main_deity": "Agni",
+    "unique_words": 124
+  },
+  {
+    "id": 45,
+    "title": "Hymn 1.45",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 87
+  },
+  {
+    "id": 46,
+    "title": "Hymn 1.46",
+    "verse_count": 15,
+    "main_deity": "Asvins",
+    "unique_words": 106
+  },
+  {
+    "id": 47,
+    "title": "Hymn 1.47",
+    "verse_count": 10,
+    "main_deity": "Asvins",
+    "unique_words": 93
+  },
+  {
+    "id": 48,
+    "title": "Hymn 1.48",
+    "verse_count": 16,
+    "main_deity": "Usas",
+    "unique_words": 152
+  },
+  {
+    "id": 49,
+    "title": "Hymn 1.49",
+    "verse_count": 4,
+    "main_deity": "Usas",
+    "unique_words": 46
+  },
+  {
+    "id": 50,
+    "title": "Hymn 1.50",
+    "verse_count": 13,
+    "main_deity": "Surya",
+    "unique_words": 88
+  },
+  {
+    "id": 51,
+    "title": "Hymn 1.51",
+    "verse_count": 15,
+    "main_deity": "Indra",
+    "unique_words": 201
+  },
+  {
+    "id": 52,
+    "title": "Hymn 1.52",
+    "verse_count": 15,
+    "main_deity": "Indra",
+    "unique_words": 182
+  },
+  {
+    "id": 53,
+    "title": "Hymn 1.53",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 146
+  },
+  {
+    "id": 54,
+    "title": "Hymn 1.54",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 161
+  },
+  {
+    "id": 55,
+    "title": "Hymn 1.55",
+    "verse_count": 8,
+    "main_deity": "Indra",
+    "unique_words": 118
+  },
+  {
+    "id": 56,
+    "title": "Hymn 1.56",
+    "verse_count": 6,
+    "main_deity": "Indra",
+    "unique_words": 97
+  },
+  {
+    "id": 57,
+    "title": "Hymn 1.57",
+    "verse_count": 6,
+    "main_deity": "Indra",
+    "unique_words": 91
+  },
+  {
+    "id": 58,
+    "title": "Hymn 1.58",
+    "verse_count": 9,
+    "main_deity": "Agni",
+    "unique_words": 126
+  },
+  {
+    "id": 59,
+    "title": "Hymn 1.59",
+    "verse_count": 7,
+    "main_deity": "Agni Vaisvanara",
+    "unique_words": 85
+  },
+  {
+    "id": 60,
+    "title": "Hymn 1.60",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 71
+  },
+  {
+    "id": 61,
+    "title": "Hymn 1.61",
+    "verse_count": 16,
+    "main_deity": "Indra",
+    "unique_words": 186
+  },
+  {
+    "id": 62,
+    "title": "Hymn 1.62",
+    "verse_count": 13,
+    "main_deity": "Indra",
+    "unique_words": 167
+  },
+  {
+    "id": 63,
+    "title": "Hymn 1.63",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 120
+  },
+  {
+    "id": 64,
+    "title": "Hymn 1.64",
+    "verse_count": 15,
+    "main_deity": "The Maruts",
+    "unique_words": 199
+  },
+  {
+    "id": 65,
+    "title": "Hymn 1.65",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 77
+  },
+  {
+    "id": 66,
+    "title": "Hymn 1.66",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 78
+  },
+  {
+    "id": 67,
+    "title": "Hymn 1.67",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 79
+  },
+  {
+    "id": 68,
+    "title": "Hymn 1.68",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 73
+  },
+  {
+    "id": 69,
+    "title": "Hymn 1.69",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 71
+  },
+  {
+    "id": 70,
+    "title": "Hymn 1.70",
+    "verse_count": 11,
+    "main_deity": "Agni",
+    "unique_words": 80
+  },
+  {
+    "id": 71,
+    "title": "Hymn 1.71",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 152
+  },
+  {
+    "id": 72,
+    "title": "Hymn 1.72",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 123
+  },
+  {
+    "id": 73,
+    "title": "Hymn 1.73",
+    "verse_count": 10,
+    "main_deity": "Agni",
+    "unique_words": 122
+  },
+  {
+    "id": 74,
+    "title": "Hymn 1.74",
+    "verse_count": 9,
+    "main_deity": "Agni",
+    "unique_words": 71
+  },
+  {
+    "id": 75,
+    "title": "Hymn 1.75",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 34
+  },
+  {
+    "id": 76,
+    "title": "Hymn 1.76",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 70
+  },
+  {
+    "id": 77,
+    "title": "Hymn 1.77",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 71
+  },
+  {
+    "id": 78,
+    "title": "Hymn 1.78",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 25
+  },
+  {
+    "id": 79,
+    "title": "Hymn 1.79",
+    "verse_count": 12,
+    "main_deity": "Agni",
+    "unique_words": 114
+  },
+  {
+    "id": 80,
+    "title": "Hymn 1.80",
+    "verse_count": 16,
+    "main_deity": "Indra",
+    "unique_words": 129
+  },
+  {
+    "id": 81,
+    "title": "Hymn 1.81",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 107
+  },
+  {
+    "id": 82,
+    "title": "Hymn 1.82",
+    "verse_count": 6,
+    "main_deity": "Indra",
+    "unique_words": 71
+  },
+  {
+    "id": 83,
+    "title": "Hymn 1.83",
+    "verse_count": 6,
+    "main_deity": "Indra",
+    "unique_words": 97
+  },
+  {
+    "id": 84,
+    "title": "Hymn 1.84",
+    "verse_count": 20,
+    "main_deity": "Indra",
+    "unique_words": 187
+  },
+  {
+    "id": 85,
+    "title": "Hymn 1.85",
+    "verse_count": 12,
+    "main_deity": "The Maruts",
+    "unique_words": 159
+  },
+  {
+    "id": 86,
+    "title": "Hymn 1.86",
+    "verse_count": 10,
+    "main_deity": "The Maruts",
+    "unique_words": 77
+  },
+  {
+    "id": 87,
+    "title": "Hymn 1.87",
+    "verse_count": 6,
+    "main_deity": "The Maruts",
+    "unique_words": 100
+  },
+  {
+    "id": 88,
+    "title": "Hymn 1.88",
+    "verse_count": 6,
+    "main_deity": "The Maruts",
+    "unique_words": 78
+  },
+  {
+    "id": 89,
+    "title": "Hymn 1.89",
+    "verse_count": 10,
+    "main_deity": "All the Gods",
+    "unique_words": 118
+  },
+  {
+    "id": 90,
+    "title": "Hymn 1.90",
+    "verse_count": 9,
+    "main_deity": "All the Gods",
+    "unique_words": 63
+  },
+  {
+    "id": 91,
+    "title": "Hymn 1.91",
+    "verse_count": 23,
+    "main_deity": "Soma",
+    "unique_words": 183
+  },
+  {
+    "id": 92,
+    "title": "Hymn 1.92",
+    "verse_count": 18,
+    "main_deity": "Usas and the Asvins",
+    "unique_words": 188
+  },
+  {
+    "id": 93,
+    "title": "Hymn 1.93",
+    "verse_count": 12,
+    "main_deity": "Agni and Soma",
+    "unique_words": 115
+  },
+  {
+    "id": 94,
+    "title": "Hymn 1.94",
+    "verse_count": 16,
+    "main_deity": "Agni",
+    "unique_words": 169
+  },
+  {
+    "id": 95,
+    "title": "Hymn 1.95",
+    "verse_count": 11,
+    "main_deity": "Agni",
+    "unique_words": 146
+  },
+  {
+    "id": 96,
+    "title": "Hymn 1.96",
+    "verse_count": 9,
+    "main_deity": "Agni Giver of Goods",
+    "unique_words": 101
+  },
+  {
+    "id": 97,
+    "title": "Hymn 1.97",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 37
+  },
+  {
+    "id": 98,
+    "title": "Hymn 1.98",
+    "verse_count": 3,
+    "main_deity": "Agni Viasvanara",
+    "unique_words": 41
+  },
+  {
+    "id": 99,
+    "title": "Hymn 1.99",
+    "verse_count": 1,
+    "main_deity": "Agni",
+    "unique_words": 18
+  },
+  {
+    "id": 100,
+    "title": "Hymn 1.100",
+    "verse_count": 19,
+    "main_deity": "Indra",
+    "unique_words": 187
+  },
+  {
+    "id": 101,
+    "title": "Hymn 1.101",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 125
+  },
+  {
+    "id": 102,
+    "title": "Hymn 1.102",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 134
+  },
+  {
+    "id": 103,
+    "title": "Hymn 1.103",
+    "verse_count": 8,
+    "main_deity": "Indra",
+    "unique_words": 109
+  },
+  {
+    "id": 104,
+    "title": "Hymn 1.104",
+    "verse_count": 9,
+    "main_deity": "Indra",
+    "unique_words": 131
+  },
+  {
+    "id": 105,
+    "title": "Hymn 1.105",
+    "verse_count": 19,
+    "main_deity": "All the Gods (Trita in the Well)",
+    "unique_words": 180
+  },
+  {
+    "id": 106,
+    "title": "Hymn 1.106",
+    "verse_count": 7,
+    "main_deity": "All the Gods",
+    "unique_words": 68
+  },
+  {
+    "id": 107,
+    "title": "Hymn 1.107",
+    "verse_count": 3,
+    "main_deity": "All the Gods",
+    "unique_words": 44
+  },
+  {
+    "id": 108,
+    "title": "Hymn 1.108",
+    "verse_count": 13,
+    "main_deity": "Indra and Agni",
+    "unique_words": 98
+  },
+  {
+    "id": 109,
+    "title": "Hymn 1.109",
+    "verse_count": 8,
+    "main_deity": "Indra and Agni",
+    "unique_words": 95
+  },
+  {
+    "id": 110,
+    "title": "Hymn 1.110",
+    "verse_count": 9,
+    "main_deity": "The Ribhus",
+    "unique_words": 119
+  },
+  {
+    "id": 111,
+    "title": "Hymn 1.111",
+    "verse_count": 5,
+    "main_deity": "The Ribhus",
+    "unique_words": 68
+  },
+  {
+    "id": 112,
+    "title": "Hymn 1.112",
+    "verse_count": 25,
+    "main_deity": "Asvins",
+    "unique_words": 221
+  },
+  {
+    "id": 113,
+    "title": "Hymn 1.113",
+    "verse_count": 20,
+    "main_deity": "Usas",
+    "unique_words": 199
+  },
+  {
+    "id": 114,
+    "title": "Hymn 1.114",
+    "verse_count": 11,
+    "main_deity": "Rudra",
+    "unique_words": 122
+  },
+  {
+    "id": 115,
+    "title": "Hymn 1.115",
+    "verse_count": 6,
+    "main_deity": "Surya the Sun-God",
+    "unique_words": 79
+  },
+  {
+    "id": 116,
+    "title": "Hymn 1.116",
+    "verse_count": 25,
+    "main_deity": "Asvins",
+    "unique_words": 286
+  },
+  {
+    "id": 117,
+    "title": "Hymn 1.117",
+    "verse_count": 25,
+    "main_deity": "Asvins",
+    "unique_words": 257
+  },
+  {
+    "id": 118,
+    "title": "Hymn 1.118",
+    "verse_count": 11,
+    "main_deity": "Asvins",
+    "unique_words": 126
+  },
+  {
+    "id": 119,
+    "title": "Hymn 1.119",
+    "verse_count": 10,
+    "main_deity": "Asvins",
+    "unique_words": 139
+  },
+  {
+    "id": 120,
+    "title": "Hymn 1.120",
+    "verse_count": 12,
+    "main_deity": "Asvins",
+    "unique_words": 109
+  },
+  {
+    "id": 121,
+    "title": "Hymn 1.121",
+    "verse_count": 15,
+    "main_deity": "Indra",
+    "unique_words": 194
+  },
+  {
+    "id": 122,
+    "title": "Hymn 1.122",
+    "verse_count": 15,
+    "main_deity": "All the Gods",
+    "unique_words": 178
+  },
+  {
+    "id": 123,
+    "title": "Hymn 1.123",
+    "verse_count": 13,
+    "main_deity": "Usas",
+    "unique_words": 147
+  },
+  {
+    "id": 124,
+    "title": "Hymn 1.124",
+    "verse_count": 13,
+    "main_deity": "Usas",
+    "unique_words": 168
+  },
+  {
+    "id": 125,
+    "title": "Hymn 1.125",
+    "verse_count": 7,
+    "main_deity": "Praise of the Generous Sacrificer",
+    "unique_words": 95
+  },
+  {
+    "id": 126,
+    "title": "Hymn 1.126",
+    "verse_count": 7,
+    "main_deity": "Thanks for a Present",
+    "unique_words": 86
+  },
+  {
+    "id": 127,
+    "title": "Hymn 1.127",
+    "verse_count": 11,
+    "main_deity": "Agni",
+    "unique_words": 181
+  },
+  {
+    "id": 128,
+    "title": "Hymn 1.128",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 137
+  },
+  {
+    "id": 129,
+    "title": "Hymn 1.129",
+    "verse_count": 11,
+    "main_deity": "Indra",
+    "unique_words": 173
+  },
+  {
+    "id": 130,
+    "title": "Hymn 1.130",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 168
+  },
+  {
+    "id": 131,
+    "title": "Hymn 1.131",
+    "verse_count": 7,
+    "main_deity": "Indra",
+    "unique_words": 115
+  },
+  {
+    "id": 132,
+    "title": "Hymn 1.132",
+    "verse_count": 6,
+    "main_deity": "Indra",
+    "unique_words": 112
+  },
+  {
+    "id": 133,
+    "title": "Hymn 1.133",
+    "verse_count": 7,
+    "main_deity": "Indra",
+    "unique_words": 88
+  },
+  {
+    "id": 134,
+    "title": "Hymn 1.134",
+    "verse_count": 6,
+    "main_deity": "Vayu",
+    "unique_words": 108
+  },
+  {
+    "id": 135,
+    "title": "Hymn 1.135",
+    "verse_count": 9,
+    "main_deity": "Vayu or Indra and Vayu",
+    "unique_words": 130
+  },
+  {
+    "id": 136,
+    "title": "Hymn 1.136",
+    "verse_count": 7,
+    "main_deity": "Mitra and Varuna",
+    "unique_words": 111
+  },
+  {
+    "id": 137,
+    "title": "Hymn 1.137",
+    "verse_count": 3,
+    "main_deity": "Mitra and Varuna",
+    "unique_words": 40
+  },
+  {
+    "id": 138,
+    "title": "Hymn 1.138",
+    "verse_count": 4,
+    "main_deity": "Pusan",
+    "unique_words": 70
+  },
+  {
+    "id": 139,
+    "title": "Hymn 1.139",
+    "verse_count": 11,
+    "main_deity": "All the Gods",
+    "unique_words": 167
+  },
+  {
+    "id": 140,
+    "title": "Hymn 1.140",
+    "verse_count": 13,
+    "main_deity": "Agni",
+    "unique_words": 187
+  },
+  {
+    "id": 141,
+    "title": "Hymn 1.141",
+    "verse_count": 13,
+    "main_deity": "Agni",
+    "unique_words": 179
+  },
+  {
+    "id": 142,
+    "title": "Hymn 1.142",
+    "verse_count": 13,
+    "main_deity": "Apri Hymn",
+    "unique_words": 112
+  },
+  {
+    "id": 143,
+    "title": "Hymn 1.143",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 114
+  },
+  {
+    "id": 144,
+    "title": "Hymn 1.144",
+    "verse_count": 7,
+    "main_deity": "Agni",
+    "unique_words": 115
+  },
+  {
+    "id": 145,
+    "title": "Hymn 1.145",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 77
+  },
+  {
+    "id": 146,
+    "title": "Hymn 1.146",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 74
+  },
+  {
+    "id": 147,
+    "title": "Hymn 1.147",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 65
+  },
+  {
+    "id": 148,
+    "title": "Hymn 1.148",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 75
+  },
+  {
+    "id": 149,
+    "title": "Hymn 1.149",
+    "verse_count": 5,
+    "main_deity": "Agni",
+    "unique_words": 56
+  },
+  {
+    "id": 150,
+    "title": "Hymn 1.150",
+    "verse_count": 3,
+    "main_deity": "Agni",
+    "unique_words": 32
+  },
+  {
+    "id": 151,
+    "title": "Hymn 1.151",
+    "verse_count": 9,
+    "main_deity": "Mitra and Varuna",
+    "unique_words": 119
+  },
+  {
+    "id": 152,
+    "title": "Hymn 1.152",
+    "verse_count": 7,
+    "main_deity": "Mitra and Varuna",
+    "unique_words": 95
+  },
+  {
+    "id": 153,
+    "title": "Hymn 1.153",
+    "verse_count": 4,
+    "main_deity": "Mitra and Varuna",
+    "unique_words": 56
+  },
+  {
+    "id": 154,
+    "title": "Hymn 1.154",
+    "verse_count": 6,
+    "main_deity": "Vishnu",
+    "unique_words": 76
+  },
+  {
+    "id": 155,
+    "title": "Hymn 1.155",
+    "verse_count": 6,
+    "main_deity": "Vishnu and Indra",
+    "unique_words": 91
+  },
+  {
+    "id": 156,
+    "title": "Hymn 1.156",
+    "verse_count": 5,
+    "main_deity": "Vishnu",
+    "unique_words": 74
+  },
+  {
+    "id": 157,
+    "title": "Hymn 1.157",
+    "verse_count": 6,
+    "main_deity": "Asvins",
+    "unique_words": 85
+  },
+  {
+    "id": 158,
+    "title": "Hymn 1.158",
+    "verse_count": 6,
+    "main_deity": "Asvins",
+    "unique_words": 88
+  },
+  {
+    "id": 159,
+    "title": "Hymn 1.159",
+    "verse_count": 5,
+    "main_deity": "Heaven and Earth",
+    "unique_words": 73
+  },
+  {
+    "id": 160,
+    "title": "Hymn 1.160",
+    "verse_count": 5,
+    "main_deity": "Heaven and Earth",
+    "unique_words": 71
+  },
+  {
+    "id": 161,
+    "title": "Hymn 1.161",
+    "verse_count": 14,
+    "main_deity": "The Ribhus",
+    "unique_words": 150
+  },
+  {
+    "id": 162,
+    "title": "Hymn 1.162",
+    "verse_count": 22,
+    "main_deity": "Sacrificial Horse",
+    "unique_words": 248
+  },
+  {
+    "id": 163,
+    "title": "Hymn 1.163",
+    "verse_count": 13,
+    "main_deity": "Praise of the Horse",
+    "unique_words": 158
+  },
+  {
+    "id": 164,
+    "title": "Hymn 1.164",
+    "verse_count": 52,
+    "main_deity": "All the Gods (Riddle Song)",
+    "unique_words": 440
+  },
+  {
+    "id": 165,
+    "title": "Hymn 1.165",
+    "verse_count": 15,
+    "main_deity": "Dialogue Between Indra, the Maruts and Agastya",
+    "unique_words": 157
+  },
+  {
+    "id": 166,
+    "title": "Hymn 1.166",
+    "verse_count": 15,
+    "main_deity": "The Maruts",
+    "unique_words": 200
+  },
+  {
+    "id": 167,
+    "title": "Hymn 1.167",
+    "verse_count": 11,
+    "main_deity": "The Maruts",
+    "unique_words": 150
+  },
+  {
+    "id": 168,
+    "title": "Hymn 1.168",
+    "verse_count": 10,
+    "main_deity": "The Maruts",
+    "unique_words": 140
+  },
+  {
+    "id": 169,
+    "title": "Hymn 1.169",
+    "verse_count": 8,
+    "main_deity": "Indra",
+    "unique_words": 102
+  },
+  {
+    "id": 170,
+    "title": "Hymn 1.170",
+    "verse_count": 5,
+    "main_deity": "Dialogue Between Agastya, Indra and the Maruts",
+    "unique_words": 62
+  },
+  {
+    "id": 171,
+    "title": "Hymn 1.171",
+    "verse_count": 6,
+    "main_deity": "The Maruts and Indra",
+    "unique_words": 79
+  },
+  {
+    "id": 172,
+    "title": "Hymn 1.172",
+    "verse_count": 3,
+    "main_deity": "The Maruts",
+    "unique_words": 24
+  },
+  {
+    "id": 173,
+    "title": "Hymn 1.173",
+    "verse_count": 13,
+    "main_deity": "Indra",
+    "unique_words": 167
+  },
+  {
+    "id": 174,
+    "title": "Hymn 1.174",
+    "verse_count": 10,
+    "main_deity": "Indra",
+    "unique_words": 140
+  },
+  {
+    "id": 175,
+    "title": "Hymn 1.175",
+    "verse_count": 6,
+    "main_deity": "Indra",
+    "unique_words": 68
+  },
+  {
+    "id": 176,
+    "title": "Hymn 1.176",
+    "verse_count": 6,
+    "main_deity": "Indra",
+    "unique_words": 67
+  },
+  {
+    "id": 177,
+    "title": "Hymn 1.177",
+    "verse_count": 5,
+    "main_deity": "Indra",
+    "unique_words": 58
+  },
+  {
+    "id": 178,
+    "title": "Hymn 1.178",
+    "verse_count": 5,
+    "main_deity": "Indra",
+    "unique_words": 78
+  },
+  {
+    "id": 179,
+    "title": "Hymn 1.179",
+    "verse_count": 6,
+    "main_deity": "Agastya and Lopamudra",
+    "unique_words": 93
+  },
+  {
+    "id": 180,
+    "title": "Hymn 1.180",
+    "verse_count": 10,
+    "main_deity": "Asvins",
+    "unique_words": 139
+  },
+  {
+    "id": 181,
+    "title": "Hymn 1.181",
+    "verse_count": 9,
+    "main_deity": "Asvins",
+    "unique_words": 127
+  },
+  {
+    "id": 182,
+    "title": "Hymn 1.182",
+    "verse_count": 8,
+    "main_deity": "Asvins",
+    "unique_words": 117
+  },
+  {
+    "id": 183,
+    "title": "Hymn 1.183",
+    "verse_count": 6,
+    "main_deity": "Asvins",
+    "unique_words": 84
+  },
+  {
+    "id": 184,
+    "title": "Hymn 1.184",
+    "verse_count": 6,
+    "main_deity": "Asvins",
+    "unique_words": 86
+  },
+  {
+    "id": 185,
+    "title": "Hymn 1.185",
+    "verse_count": 11,
+    "main_deity": "Heaven and Earth",
+    "unique_words": 120
+  },
+  {
+    "id": 186,
+    "title": "Hymn 1.186",
+    "verse_count": 11,
+    "main_deity": "All the Gods",
+    "unique_words": 143
+  },
+  {
+    "id": 187,
+    "title": "Hymn 1.187",
+    "verse_count": 11,
+    "main_deity": "Food and Drink",
+    "unique_words": 86
+  },
+  {
+    "id": 188,
+    "title": "Hymn 1.188",
+    "verse_count": 11,
+    "main_deity": "Apri Hymn",
+    "unique_words": 82
+  },
+  {
+    "id": 189,
+    "title": "Hymn 1.189",
+    "verse_count": 8,
+    "main_deity": "Agni",
+    "unique_words": 109
+  },
+  {
+    "id": 190,
+    "title": "Hymn 1.190",
+    "verse_count": 8,
+    "main_deity": "Brihaspati",
+    "unique_words": 103
+  },
+  {
+    "id": 191,
+    "title": "Hymn 1.191",
+    "verse_count": 16,
+    "main_deity": "Against Venomous Animals",
+    "unique_words": 129
+  }
 ]

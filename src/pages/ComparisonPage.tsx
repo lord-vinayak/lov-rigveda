@@ -4,12 +4,13 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { PageHeader } from "@/components/PageHeader";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
+import axios from "axios";
 
 interface Mandala {
-  id: number;
+  mandala: number;
   title: string;
-  verse_count: number;
-  hymn_count: number;
+  total_verses: number;
+  total_hymns: number;
   vocab_size: number;
 }
 
@@ -18,17 +19,16 @@ const ComparisonPage = () => {
   const [selectedIds, setSelectedIds] = useState<number[]>([1, 2, 10]);
 
   useEffect(() => {
-    fetch("/data/mandala_summary.json")
-      .then((res) => res.json())
-      .then((data) => setMandalas(data))
+    axios.get("/api/all_mandalas")
+      .then(res => setMandalas(res.data))
       .catch((err) => console.error("Error loading data:", err));
   }, []);
 
-  const selectedData = mandalas.filter((m) => selectedIds.includes(m.id));
+  const selectedData = mandalas.filter((m) => selectedIds.includes(m.mandala));
 
-  const toggleSelection = (id: number) => {
+  const toggleSelection = (mandala: number) => {
     setSelectedIds((prev) =>
-      prev.includes(id) ? prev.filter((i) => i !== id) : [...prev, id]
+      prev.includes(mandala) ? prev.filter((i) => i !== mandala) : [...prev, mandala]
     );
   };
 
@@ -53,17 +53,17 @@ const ComparisonPage = () => {
               </CardHeader>
               <CardContent className="space-y-3">
                 {mandalas.map((mandala) => (
-                  <div key={mandala.id} className="flex items-center space-x-2">
+                  <div key={mandala.mandala} className="flex items-center space-x-2">
                     <Checkbox
-                      id={`mandala-${mandala.id}`}
-                      checked={selectedIds.includes(mandala.id)}
-                      onCheckedChange={() => toggleSelection(mandala.id)}
+                      id={`mandala-${mandala.mandala}`}
+                      checked={selectedIds.includes(mandala.mandala)}
+                      onCheckedChange={() => toggleSelection(mandala.mandala)}
                     />
                     <label
-                      htmlFor={`mandala-${mandala.id}`}
+                      htmlFor={`mandala-${mandala.mandala}`}
                       className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
                     >
-                      {mandala.title}
+                      Mandala {mandala.mandala}
                     </label>
                   </div>
                 ))}
@@ -93,7 +93,7 @@ const ComparisonPage = () => {
                         borderRadius: "var(--radius)",
                       }}
                     />
-                    <Bar dataKey="verse_count" fill="hsl(var(--primary))" radius={[8, 8, 0, 0]} />
+                    <Bar dataKey="total_verses" fill="hsl(var(--primary))" radius={[8, 8, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </CardContent>
@@ -116,7 +116,7 @@ const ComparisonPage = () => {
                         borderRadius: "var(--radius)",
                       }}
                     />
-                    <Bar dataKey="hymn_count" fill="hsl(var(--secondary))" radius={[8, 8, 0, 0]} />
+                    <Bar dataKey="total_hymns" fill="hsl(var(--secondary))" radius={[8, 8, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </CardContent>

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MandalaCard } from "@/components/MandalaCard";
 import { PageHeader } from "@/components/PageHeader";
+import axios from "axios";
 
 interface Mandala {
   mandala: number;
@@ -18,9 +19,8 @@ const MandalaView = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/data/mandala_stats.json")
-      .then((res) => res.json())
-      .then((data) => setMandalas(data))
+    axios.get("/api/all_mandalas")
+      .then(res => setMandalas(res.data))
       .catch((err) => console.error("Error loading mandalas:", err));
   }, []);
 

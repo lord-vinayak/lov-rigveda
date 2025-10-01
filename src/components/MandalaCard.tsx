@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import { BookOpen, Sparkles, Users } from "lucide-react";
+import { AudioLines, BookOpen, ChartNoAxesColumn, Sparkles, Users } from "lucide-react";
 
 interface MandalaCardProps {
   mandala: {
@@ -31,7 +31,7 @@ export const MandalaCard = ({ mandala, onClick }: MandalaCardProps) => {
         </CardHeader>
         <CardContent className="space-y-3">
           <div className="flex items-center gap-2 text-sm">
-            <Sparkles className="w-4 h-4 text-accent" />
+            <ChartNoAxesColumn className="w-4 h-4 text-accent" />
             <span className="text-muted-foreground">
               {mandala.total_verses} verses
             </span>
@@ -39,11 +39,11 @@ export const MandalaCard = ({ mandala, onClick }: MandalaCardProps) => {
           <div className="flex items-center gap-2 text-sm">
             <BookOpen className="w-4 h-4 text-secondary" />
             <span className="text-muted-foreground">
-              {mandala.total_hymns} hymns
+              {mandala.total_hymns} hymns 
             </span>
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <Users className="w-4 h-4 text-primary" />
+            <AudioLines className="w-4 h-4 text-primary" />
             <span className="text-muted-foreground">
               {mandala.vocab_size} unique words
             </span>

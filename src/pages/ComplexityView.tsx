@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { PageHeader } from "@/components/PageHeader";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
+import axios from "axios";
 
 interface Mandala {
   id: number;
@@ -15,9 +16,8 @@ const ComplexityView = () => {
   const [data, setData] = useState<Mandala[]>([]);
 
   useEffect(() => {
-    fetch("/data/mandala_summary.json")
-      .then((res) => res.json())
-      .then((mandalas) => setData(mandalas))
+    axios.get("/api/all_mandalas")
+      .then(res => setData(res.data))
       .catch((err) => console.error("Error loading data:", err));
   }, []);
 
@@ -49,7 +49,7 @@ const ComplexityView = () => {
                 <BarChart data={data}>
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                   <XAxis
-                    dataKey="id"
+                    dataKey="mandala"
                     stroke="hsl(var(--muted-foreground))"
                     label={{ value: 'Mandala', position: 'insideBottom', offset: -5 }}
                   />
@@ -84,7 +84,7 @@ const ComplexityView = () => {
                 <BarChart data={data}>
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                   <XAxis
-                    dataKey="id"
+                    dataKey="mandala"
                     stroke="hsl(var(--muted-foreground))"
                     label={{ value: 'Mandala', position: 'insideBottom', offset: -5 }}
                   />
@@ -119,9 +119,9 @@ const ComplexityView = () => {
                 <BarChart data={data}>
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                   <XAxis
-                    dataKey="id"
+                    dataKey="mandala"
                     stroke="hsl(var(--muted-foreground))"
-                    label={{ value: 'Mandala', position: 'insideBottom', offset: -5 }}
+                    label={{ value: 'Mandala', position: 'insideBottom', offset: -2 }}
                   />
                   <YAxis
                     stroke="hsl(var(--muted-foreground))"
@@ -134,7 +134,7 @@ const ComplexityView = () => {
                       borderRadius: "var(--radius)",
                     }}
                   />
-                  <Legend />
+                  <Legend wrapperStyle={{ bottom: -5 }} />
                   <Bar dataKey="avg_verses_per_hymn" fill="hsl(var(--primary))" name="Verses/Hymn" />
                   <Bar dataKey="avg_words_per_verse" fill="hsl(var(--secondary))" name="Words/Verse" />
                 </BarChart>
@@ -142,7 +142,7 @@ const ComplexityView = () => {
             </CardContent>
           </Card>
 
-          <Card className="border-2 bg-muted/50">
+          {/* <Card className="border-2 bg-muted/50">
             <CardContent className="pt-6">
               <h3 className="font-semibold mb-2 text-foreground">Complexity Patterns:</h3>
               <ul className="space-y-1 text-sm text-muted-foreground">
@@ -152,7 +152,7 @@ const ComplexityView = () => {
                 <li>• Structural consistency suggests formalized compositional practices</li>
               </ul>
             </CardContent>
-          </Card>
+          </Card> */}
         </motion.div>
       </div>
     </div>

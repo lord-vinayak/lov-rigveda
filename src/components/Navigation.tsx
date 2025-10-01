@@ -1,22 +1,23 @@
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import { 
-  Home, 
-  BarChart3, 
-  GitCompare, 
-  Languages, 
-  Map, 
+import {
+  Home,
+  BarChart3,
+  GitCompare,
+  Languages,
+  Map,
   TrendingUp,
-  Sparkles
+  Sparkles,
 } from "lucide-react";
+import MyIcon from "@/icons/book.jsx";
 
 const navItems = [
   { path: "/", label: "Home", icon: Home },
   { path: "/vocabulary", label: "Vocabulary", icon: Languages },
   { path: "/deities", label: "Deities", icon: Sparkles },
-  { path: "/grammar", label: "Grammar", icon: BarChart3 },
+  // { path: "/grammar", label: "Grammar", icon: BarChart3 },
   { path: "/compare", label: "Compare", icon: GitCompare },
-  { path: "/cultural", label: "Cultural", icon: Map },
+  // { path: "/cultural", label: "Cultural", icon: Map },
   { path: "/complexity", label: "Complexity", icon: TrendingUp },
 ];
 
@@ -30,34 +31,28 @@ export const Navigation = () => {
           <Link to="/" className="flex items-center space-x-2">
             <motion.div
               whileHover={{ rotate: 360 }}
-              transition={{ duration: 0.5 }}
-            >
-              <Sparkles className="w-6 h-6 text-accent" />
+              transition={{ duration: 0.5 }}>
+              <MyIcon className="w-14 h-14 text-accent" />
             </motion.div>
             <span className="text-xl font-serif font-bold text-primary">
-              Vedic Time Machine
+              T.R.P. - The Rig Veda Project
             </span>
           </Link>
-          
+
           <div className="hidden md:flex items-center space-x-1">
             {navItems.map((item) => {
               const Icon = item.icon;
               const isActive = location.pathname === item.path;
-              
+
               return (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className="relative"
-                >
+                <Link key={item.path} to={item.path} className="relative">
                   <motion.div
                     whileHover={{ y: -2 }}
                     className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
                       isActive
                         ? "bg-primary text-primary-foreground"
                         : "hover:bg-muted text-foreground"
-                    }`}
-                  >
+                    }`}>
                     <Icon className="w-4 h-4" />
                     <span className="text-sm font-medium">{item.label}</span>
                   </motion.div>

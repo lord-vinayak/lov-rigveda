@@ -3,9 +3,10 @@ import { motion } from "framer-motion";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { PageHeader } from "@/components/PageHeader";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart } from "recharts";
+import axios from "axios";
 
 interface Mandala {
-  id: number;
+  mandala: number;
   title: string;
   vocab_size: number;
 }
@@ -14,9 +15,8 @@ const VocabularyChart = () => {
   const [data, setData] = useState<Mandala[]>([]);
 
   useEffect(() => {
-    fetch("/data/mandala_summary.json")
-      .then((res) => res.json())
-      .then((mandalas) => setData(mandalas))
+    axios.get("/api/all_mandalas")
+      .then(res => setData(res.data))
       .catch((err) => console.error("Error loading data:", err));
   }, []);
 
@@ -54,7 +54,7 @@ const VocabularyChart = () => {
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                   <XAxis
-                    dataKey="id"
+                    dataKey="mandala"
                     stroke="hsl(var(--muted-foreground))"
                     label={{ value: 'Mandala', position: 'insideBottom', offset: -5 }}
                   />
@@ -83,11 +83,11 @@ const VocabularyChart = () => {
               <div className="mt-6 grid grid-cols-2 md:grid-cols-5 gap-4">
                 {data.map((mandala) => (
                   <div
-                    key={mandala.id}
+                    key={mandala.mandala}
                     className="p-4 bg-muted rounded-lg text-center"
                   >
                     <div className="text-2xl font-bold text-primary">{mandala.vocab_size}</div>
-                    <div className="text-xs text-muted-foreground">Mandala {mandala.id}</div>
+                    <div className="text-xs text-muted-foreground">Mandala {mandala.mandala}</div>
                   </div>
                 ))}
               </div>

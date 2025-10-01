@@ -5,6 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { PageHeader } from "@/components/PageHeader";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { BookOpen } from "lucide-react";
+import axios from "axios";
 
 interface Sukta {
   id: number;
@@ -20,9 +21,8 @@ const SuktaView = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`/data/sukta_summary_${mandalaId}.json`)
-      .then((res) => res.json())
-      .then((data) => setSuktas(data))
+    axios.get("/api/mandala/" + mandalaId)
+      .then(res => setSuktas(res.data))
       .catch(() => {
         // Fallback data if specific file doesn't exist
         setSuktas([
@@ -37,7 +37,7 @@ const SuktaView = () => {
     <div className="min-h-screen">
       <div className="container mx-auto px-4 py-8">
         <PageHeader
-          title={`Mandala ${mandalaId} - Hymns`}
+          title={`Mandala ${mandalaId}`}
           subtitle={`Explore the individual hymns (Suktas) of this Mandala`}
           showBack
         />
@@ -53,7 +53,7 @@ const SuktaView = () => {
                 <XAxis 
                   dataKey="id" 
                   stroke="hsl(var(--muted-foreground))"
-                  label={{ value: 'Hymn Number', position: 'insideBottom', offset: -5 }}
+                  label={{ value: 'Hymn Number', position: 'insideBottom', offset: -4 }}
                 />
                 <YAxis 
                   stroke="hsl(var(--muted-foreground))"

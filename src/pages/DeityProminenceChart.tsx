@@ -17,8 +17,10 @@ import axios from "axios";
 const DeityProminenceChart = () => {
   const [data, setData] = useState<any[]>([]);
 
+const API_URL = import.meta.env.VITE_API_URL;
+
   useEffect(() => {
-    axios.get("/api/deity_trends")
+    axios.get(`${API_URL}/api/deity_trends`)
       .then((res) => res.data)
       .then((trends) => {
         // Transform data for Recharts

@@ -45,9 +45,11 @@ const VerseView = () => {
   }>();
   const [verses, setVerses] = useState<Verse[]>([]);
 
+const API_URL = import.meta.env.VITE_API_URL
+
   useEffect(() => {
     axios
-      .get("/api/sukta/" + mandalaId + "/" + suktaId)
+      .get(`${API_URL}/api/sukta/${mandalaId}/${suktaId}`)
       .then((res) => setVerses(res.data))
       .catch(() => {
         // Fallback data

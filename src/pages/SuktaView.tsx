@@ -20,8 +20,10 @@ const SuktaView = () => {
   const [suktas, setSuktas] = useState<Sukta[]>([]);
   const navigate = useNavigate();
 
+const API_URL = import.meta.env.VITE_API_URL
+
   useEffect(() => {
-    axios.get("/api/mandala/" + mandalaId)
+    axios.get(`${API_URL}/api/mandala/${mandalaId}`)
       .then(res => setSuktas(res.data))
       .catch(() => {
         // Fallback data if specific file doesn't exist

@@ -15,8 +15,10 @@ interface Mandala {
 const ComplexityView = () => {
   const [data, setData] = useState<Mandala[]>([]);
 
+const API_URL = import.meta.env.VITE_API_URL;
+
   useEffect(() => {
-    axios.get("/api/all_mandalas")
+    axios.get(`${API_URL}/api/all_mandalas`)
       .then(res => setData(res.data))
       .catch((err) => console.error("Error loading data:", err));
   }, []);

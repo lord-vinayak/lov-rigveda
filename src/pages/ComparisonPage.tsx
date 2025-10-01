@@ -18,8 +18,10 @@ const ComparisonPage = () => {
   const [mandalas, setMandalas] = useState<Mandala[]>([]);
   const [selectedIds, setSelectedIds] = useState<number[]>([1, 2, 10]);
 
+const API_URL = import.meta.env.VITE_API_URL
+
   useEffect(() => {
-    axios.get("/api/all_mandalas")
+    axios.get(`${API_URL}/api/all_mandalas`)
       .then(res => setMandalas(res.data))
       .catch((err) => console.error("Error loading data:", err));
   }, []);

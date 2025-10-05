@@ -3,6 +3,7 @@
 ## Project info
 
 **URL**: https://lov-rigveda.vercel.app
+
 This project is hosted via Render. As I'm currently on free tier, Render automatically shuts down my backend due to inactivity and thus the website is unable to make continuous API requests. If you encounter blank page please refresh or close the tab and reopen after 10-20 sec. This is the only fix, until this project receives some generous contributions.
 
 ## Resources used
